@@ -1,0 +1,9 @@
+Package: LongevityModels
+Type: Package
+Title: Functions related to Cairns, Blake & Dowd (2006) summary of longevity models
+Version: 0.1
+Date: 2014-10-15
+Author: Phil Joubert
+Maintainer: Phil Joubert <phil.joubert@not-normal-consulting.co.uk>
+Description: Loads mortality data in HMD format, and exposes functions to calculate CBD (2006) (log) Longevities
+License: GPL-3
