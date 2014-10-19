@@ -6,7 +6,7 @@
 #' 
 LoadMortalityData <- function( filename ){
   
-  MortalityData <- read.table("data//Australian mortality mltper_1x1.txt", skip=2, header=TRUE)
+  MortalityData <- read.table(filename, skip=2, header=TRUE)
   MortalityData$Age <- as.integer( gsub("+", "", MortalityData$Age, fixed=TRUE) )
   return( MortalityData )
   
